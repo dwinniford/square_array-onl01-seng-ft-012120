@@ -1,3 +1,5 @@
 def square_array(array)
-  array.each { |i| i.abs2 }
+  squares = []
+  array.each { |i| squares << i.abs2 }
+  squares
 end
